@@ -2,13 +2,13 @@ The project presents implement the basic mechanism of a client/server applicatio
 
 All data about created users, chats and messages is stored in the database
 
-The client and server communicate using JSON format.
+The clients and server communicate using JSON format.
 
 Building the project:
 `mvn install`.
 
-Запуск Сервера:
+Starting the Server:
 `java -jar SocketServer/target/socket-server.jar --port=8081`
 
-Запуск клиентов:
+Client launch:
 `java -jar SocketClient/target/socket-client.jar --server-port=8081`
