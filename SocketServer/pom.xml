@@ -80,7 +80,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>edu.school21.sockets.app.Main</mainClass>
+                            <mainClass>sockets.app.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
