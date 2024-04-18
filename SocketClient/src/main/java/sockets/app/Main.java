@@ -14,7 +14,7 @@ import java.net.InetAddress;
 public class Main {
     @Parameter(names = {"--server-port"})
     int port;
-//    String ip = "127.0.0.1";
+//  String ip = "127.0.0.1";
     String ip = "localhost";
 
     public static void main(String[] args) {
